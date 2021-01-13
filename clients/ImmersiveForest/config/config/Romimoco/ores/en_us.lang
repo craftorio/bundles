@@ -1,0 +1,17 @@
+tile.romimocoores:oreCopper.name=Copper Ore
+tile.romimocoores:oreLead.name=Lead Ore
+tile.romimocoores:oreUranium.name=Uranium Ore
+tile.romimocoores:oreSilver.name=Silver Ore
+tile.romimocoores:oreIron.name=Iron Ore
+tile.romimocoores:oreTin.name=Tin Ore
+item.romimocoores:ingotTin.name=Tin Ingot
+item.romimocoores:dustTin.name=Tin Dust
+item.romimocoores:ingotIron.name=Iron Ingot
+item.romimocoores:dustIron.name=Iron Dust
+item.romimocoores:ingotSilver.name=Silver Ingot
+item.romimocoores:dustSilver.name=Silver Dust
+item.romimocoores:dustUranium.name=Uranium Dust
+item.romimocoores:ingotLead.name=Lead Ingot
+item.romimocoores:dustLead.name=Lead Dust
+item.romimocoores:ingotCopper.name=Copper Ingot
+item.romimocoores:dustCopper.name=Copper Dust

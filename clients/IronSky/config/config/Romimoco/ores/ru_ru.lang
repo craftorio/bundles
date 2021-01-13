@@ -1,0 +1,17 @@
+tile.romimocoores:oreCopper.name=Медная руда
+tile.romimocoores:oreLead.name=Свинцовая руда
+tile.romimocoores:oreUranium.name=Урановая руда
+tile.romimocoores:oreSilver.name=Серебрянная руда
+tile.romimocoores:oreIron.name=Железная руда
+tile.romimocoores:oreTin.name=Оловянная руда
+item.romimocoores:ingotTin.name=Оловянный слиток
+item.romimocoores:dustTin.name=Оловянная пыль
+item.romimocoores:ingotIron.name=Железный слиток
+item.romimocoores:dustIron.name=Железная пыль
+item.romimocoores:ingotSilver.name=Серебрянный слиток
+item.romimocoores:dustSilver.name=Серебрянная пыль
+item.romimocoores:dustUranium.name=Урановая пыль
+item.romimocoores:ingotLead.name=Свинцовый слиток
+item.romimocoores:dustLead.name=Свинцовая пыль
+item.romimocoores:ingotCopper.name=Медный слиток
+item.romimocoores:dustCopper.name=Медная пыль

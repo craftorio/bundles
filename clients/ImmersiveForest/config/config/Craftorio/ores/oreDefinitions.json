@@ -1,0 +1,267 @@
+{
+  "OreList": [
+    {
+      "Name" : "Uranium",
+      "Color": "0x82a66c",
+      "Hardness":"3",
+      "Harvestlevel":"2",
+      "genDusts": true,
+      "genIngots": true,
+      "genVariants": false,
+      "genTools": false,
+      "genArmor": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 3
+          },
+          {
+            "ID": 7,
+            "LikeID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 4
+          }
+        ]
+      }
+    },
+    {
+      "Name" : "Copper",
+      "Color": "0xd18861",
+      "Hardness":"2",
+      "Harvestlevel":"1",
+      "genDusts": true,
+      "genIngots": true,
+      "genVariants": false,
+      "genTools": false,
+      "genArmor": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": 0,
+            "MinY": 10,
+            "MaxY": 70,
+            "SpawnChance": 30,
+            "VeinSize": 4
+          },
+          {
+            "ID": 7,
+            "LikeID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 8
+          },
+          {
+            "ID": 1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 30,
+            "VeinSize": 6
+          },
+          {
+            "ID": -1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 40,
+            "VeinSize": 8
+          }
+        ]
+      }
+    },
+    {
+      "Name" : "Nickel",
+      "Color": "0xdfe6d1",
+      "Hardness":"2",
+      "Harvestlevel":"2",
+      "genDusts": true,
+      "genIngots": true,
+      "genVariants": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": 0,
+            "MinY": 1,
+            "MaxY": 24,
+            "SpawnChance": 30,
+            "VeinSize": 4
+          },
+          {
+            "ID": 7,
+            "LikeID": 0,
+            "MinY": 1,
+            "MaxY": 32,
+            "SpawnChance": 30,
+            "VeinSize": 8
+          },
+          {
+            "ID": 1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 30,
+            "VeinSize": 6
+          },
+          {
+            "ID": -1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 40,
+            "VeinSize": 8
+          }
+        ]
+      }
+    },
+    {
+      "Name" : "Aluminium",
+      "Color": "0xc2e1de",
+      "Hardness":"2",
+      "Harvestlevel":"1",
+      "genDusts": true,
+      "genIngots": true,
+      "genVariants": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 4
+          },
+        {
+            "ID": 7,
+            "LikeID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 8
+          },
+          {
+            "ID": 1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 30,
+            "VeinSize": 6
+          },
+          {
+            "ID": -1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 40,
+            "VeinSize": 8
+          }
+        ]
+      }
+    },
+    {
+      "Name" : "Silver",
+      "Color": "0xcddde9",
+      "Hardness":"2",
+      "Harvestlevel":"2",
+      "genDusts": true,
+      "genIngots": true,
+      "genVariants": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": 0,
+            "MinY": 7,
+            "MaxY": 55,
+            "SpawnChance": 30,
+            "VeinSize": 4
+          },
+        {
+            "ID": 7,
+            "LikeID": 0,
+            "MinY": 1,
+            "MaxY": 55,
+            "SpawnChance": 30,
+            "VeinSize": 8
+          },
+          {
+            "ID": 1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 30,
+            "VeinSize": 6
+          },
+          {
+            "ID": -1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 40,
+            "VeinSize": 8
+          }
+        ]
+      }
+    },
+    {
+      "Name" : "Lead",
+      "Color": "0x696f89",
+      "Hardness":"2",
+      "Harvestlevel":"2",
+      "genDusts": true,
+      "genIngots": true,
+      "genVariants": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 4
+          },
+        {
+            "ID": 7,
+            "LikeID": 0,
+            "MinY": 1,
+            "MaxY": 64,
+            "SpawnChance": 30,
+            "VeinSize": 8
+          },
+          {
+            "ID": 1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 30,
+            "VeinSize": 6
+          },
+          {
+            "ID": -1,
+            "MinY": 0,
+            "MaxY": 255,
+            "SpawnChance": 40,
+            "VeinSize": 8
+          }
+        ]
+      }
+    }
+  ],
+  "GemList":[
+    {
+      "Name" : "Coal",
+      "Color": "0x2b2b2d",
+      "Hardness":"2.2",
+      "Harvestlevel":"1",
+      "Drops":"minecraft:coal",
+      "genVariants": false,
+      "Generation":{
+        "Dimensions": [
+          {
+            "ID": -1,
+            "MinY": 1,
+            "MaxY": 255,
+            "SpawnChance": 40,
+            "VeinSize": 12
+          }
+        ]
+      }
+    }
+  ]
+}

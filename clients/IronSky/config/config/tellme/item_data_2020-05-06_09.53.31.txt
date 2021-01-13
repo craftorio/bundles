@@ -1,0 +1,10 @@
+Sonic Rifle (techguns:sonicshotgun - 5451:0) has NBT data
+
+{ammo:5s,ammovariant:"default",camo:0b}
+
+TAG_Compound (10) ('')
+{
+    TAG_Short (2) ('ammo'): 5
+    TAG_String (8) ('ammovariant'): "default"
+    TAG_Byte (1) ('camo'): 0
+}

@@ -6,5 +6,5 @@ docker stop Vannihilation
 docker rm Vannihilation
 
 git reset --hard && git clean -fd && git pull
-
+rm -rf worlds/*
 ./start.sh

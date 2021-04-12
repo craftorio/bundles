@@ -1,2 +1,2 @@
 # Craftorio.com
-## Сборки Клиентов Minecraft
+## Сборки Клиентов/Серверов Minecraft

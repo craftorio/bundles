@@ -6,7 +6,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Enable Temperature" = true
+	"Boolean: Enable Temperature" = false
 	#
 	############################################
 	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia

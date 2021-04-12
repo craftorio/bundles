@@ -19,3 +19,5 @@ overrides:
     skip-every: default
   com-minecraftabnormals-environmental-common-tile-BirdNestTileEntity:
     skip-every: default
+  net-minecraft-tileentity-BeehiveTileEntity:
+    skip-every: default

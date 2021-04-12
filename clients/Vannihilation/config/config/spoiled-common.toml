@@ -4,7 +4,7 @@
 	#Determines the spoilrate in specific containers [Syntax: tileentity:spoil_rate]
 	#Examples: "minecraft:shulker_box,0" would make shulker boxes not spoil food
 	#"cookingforblockheads:fridge,0.2" would make a cooking for blockheads fridge spoil at 20% of the usual spoilrate
-	containerModifier = ["minecraft:shulker_box,0"]
+	containerModifier = ["cookingforblockheads:fridge,0.2", "minecraft:shulker_box,0.1"]
 	#Defines the default amount of seconds in between which the spoiling updates, if this is changed you should update the 'defaultSpoilTime' to accommodate for the extra time [default: 10]
 	#Range: > 1
 	spoilRate = 10

@@ -59,3 +59,19 @@ overrides:
     skip-every: default
   net-minecraft-entity-monster-ElderGuardianEntity:
     skip-every: default
+  net-minecraft-entity-passive-SheepEntity:
+    skip-every: default
+  net-minecraft-entity-passive-CowEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-DonkeyEntity:
+    skip-every: default
+  net-minecraft-entity-passive-PandaEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-HorseEntity:
+    skip-every: default
+  com-minecraftabnormals-environmental-common-entity-DeerEntity:
+    skip-every: default
+  net-minecraft-entity-passive-WolfEntity:
+    skip-every: default
+  net-minecraft-entity-passive-BeeEntity:
+    skip-every: default

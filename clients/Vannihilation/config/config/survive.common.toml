@@ -48,7 +48,7 @@
 	#-------------------------------------------
 	#Default: false
 	#-------------------------------------------
-	"Boolean: Drink From Flowing Water" = false
+	"Boolean: Drink From Flowing Water" = true
 	#
 	############################################
 	#Enabling this will remove the water source block when it is drunk

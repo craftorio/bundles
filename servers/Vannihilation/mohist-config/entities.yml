@@ -57,3 +57,5 @@ overrides:
     skip-every: default
   net-minecraft-entity-passive-OcelotEntity:
     skip-every: default
+  net-minecraft-entity-monster-ElderGuardianEntity:
+    skip-every: default

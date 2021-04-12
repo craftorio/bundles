@@ -4,8 +4,8 @@ GriefPrevention:
     world: -1
     DIM-1: -1
     DIM1: -1
-    skylight_forest: -1
     twilightforest: -1
+    skylight_forest: -1
   Claims:
     Mode:
       twilightforest: Survival
@@ -78,8 +78,8 @@ GriefPrevention:
       world: true
       DIM-1: true
       DIM1: true
-      skylight_forest: true
       twilightforest: true
+      skylight_forest: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

@@ -21,3 +21,11 @@ overrides:
     skip-every: default
   net-minecraft-tileentity-BeehiveTileEntity:
     skip-every: default
+  net-minecraft-tileentity-SmokerTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BellTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-CampfireTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BrewingStandTileEntity:
+    skip-every: default

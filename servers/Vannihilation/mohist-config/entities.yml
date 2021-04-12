@@ -75,3 +75,17 @@ overrides:
     skip-every: default
   net-minecraft-entity-passive-BeeEntity:
     skip-every: default
+  net-minecraft-entity-passive-PigEntity:
+    skip-every: default
+  net-minecraft-entity-merchant-villager-VillagerEntity:
+    skip-every: default
+  net-minecraft-entity-passive-CatEntity:
+    skip-every: default
+  net-minecraft-entity-passive-FoxEntity:
+    skip-every: default
+  net-minecraft-entity-passive-IronGolemEntity:
+    skip-every: default
+  com-minecraftabnormals-environmental-common-entity-DuckEntity:
+    skip-every: default
+  net-minecraft-entity-passive-RabbitEntity:
+    skip-every: default

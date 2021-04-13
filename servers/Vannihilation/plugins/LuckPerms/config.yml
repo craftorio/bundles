@@ -126,7 +126,7 @@ data:
     # This setting controls the maximum lifetime of a connection in the pool in milliseconds.
     # - The value should be at least 30 seconds less than any database or infrastructure imposed
     #   connection time limit.
-    maximum-lifetime: 1800000 # 30 minutes
+    maximum-lifetime: 600000 # 30 minutes
 
     # This setting controls how frequently the pool will 'ping' a connection in order to prevent it
     # from being timed out by the database or network infrastructure, measured in milliseconds.

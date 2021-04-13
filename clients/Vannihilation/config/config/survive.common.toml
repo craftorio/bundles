@@ -48,7 +48,7 @@
 	#-------------------------------------------
 	#Default: false
 	#-------------------------------------------
-	"Boolean: Drink From Flowing Water" = false
+	"Boolean: Drink From Flowing Water" = true
 	#
 	############################################
 	#Enabling this will remove the water source block when it is drunk
@@ -98,7 +98,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Enable Sleep" = true
+	"Boolean: Enable Sleep" = false
 	#
 	############################################
 	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect
@@ -138,7 +138,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Enable Stamina" = true
+	"Boolean: Enable Stamina" = false
 	#
 	############################################
 	#Disabling this will allow the weight of certain armor pieces to affect your stamina

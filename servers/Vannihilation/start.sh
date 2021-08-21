@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+set -x
+set -e
 cd $(dirname $0);
 
 export MINECRAFT_AUTH_SERVER_URL=${MINECRAFT_AUTH_SERVER_URL-"https://auth.craftorio.com"}

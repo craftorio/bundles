@@ -14,4 +14,4 @@ export MC_PORT=${MC_PORT-25566}
 cd ${DIR}/config && rsync -a --exclude-from='exclude.txt' ../../../clients/Vannihilation/config/config/ ./ && cd -
 cd ${DIR}/mods && rsync --delete -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/Vannihilation/mods/ ./ && cd -
 
-mc-docker-run --name ${MC_PROJECT_NAME} --data $(pwd) --port 25566
+mc-docker-run --name "${MC_PROJECT_NAME}" --data "$(pwd)" --port ${MC_PORT}

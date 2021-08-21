@@ -1,1 +1,4 @@
 .env
+servers/*/mods/**.jar
+servers/*/config/**
+servers/*/worlds/**

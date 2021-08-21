@@ -11,6 +11,6 @@ if docker ps -a | grep "${MC_PROJECT_NAME}"; then
   docker rm "${MC_PROJECT_NAME}"
 fi
 
-git reset --hard && git clean -fd && git pull
+git pull
 
 ./start.sh

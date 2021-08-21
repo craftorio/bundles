@@ -1,7 +1,12 @@
+# This is the main configuration file for Mohist.
+# 
+# Home: https://mohistmc.com/
+
+
 mohist:
   check_update: false
   lang: ru_RU
-  check_libraries: false
+  check_libraries: true
   disable_mods_blacklist: false
   disable_plugins_blacklist: false
   check_update_auto_download: false
@@ -10,6 +15,14 @@ mohist:
   optimize_explosions: true
   prevent_from_entering_unloaded_chunks: true
   ignore_empty_time: all_worlds
+  use_custom_java11: false
+  enable_worldedit_fix: true
+  console_name: Server
+  custom_flags: aaaa bbbb
+  networkmanager:
+    debug: false
+  server_type: FML
+  paper_optimization: only_works
 consolecolor:
   info-time: b
   info-level: 2
@@ -27,3 +40,15 @@ consolecolor:
   fatal-level: c
   trace-msg: c
 libraries_black_list: aaaaa;bbbbbb
+forge:
+  hidejoinmodslist: false
+  modswhitelist:
+    list: minecraft,forge
+    kickmessage: Use of unauthorized mods
+    mods_number: 0
+    enable: false
+  modsblacklist:
+    kickmessage: Use of unauthorized mods
+    list: aaaa,bbbb
+    enable: false
+config-version: 1

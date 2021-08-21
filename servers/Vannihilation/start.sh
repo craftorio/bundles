@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
-pushd `dirname $0` > /dev/null;DIR=`pwd -P`;popd > /dev/null
+cd $(dirname $0);
+
+export MINECRAFT_AUTH_SERVER_URL=${MINECRAFT_AUTH_SERVER_URL-"https://auth.craftorio.com"}
+export CONTAINER_IMAGE=${CONTAINER_IMAGE-"craftorio/docker-server-minecraft:mohist-1.16.5-759"}
+export MC_CPU_COUNT=${MC_CPU_COUNT-4}
+export MC_INIT_MEMORY=${MC_INIT_MEMORY-2048M}
+export MC_MAX_MEMORY=${MC_MAX_MEMORY-8192M}
+export MC_PORT=${MC_PORT-25566}
 
 cd ${DIR}/config && rsync -a --exclude-from='exclude.txt' ../../../clients/Vannihilation/config/config/ ./ && cd -
 cd ${DIR}/mods && rsync --delete -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/Vannihilation/mods/ ./ && cd -
 
-MC_CPU_COUNT=${MC_CPU_COUNT-4} MC_MAX_MEMORY=${MC_MAX_MEMORY-8192M} MC_INIT_MEMORY=${MC_INIT_MEMORY-4096M} mc-docker-run --auth-server-url https://auth.craftorio.com \
---image craftorio/docker-server-minecraft:1.16.5-457-mohist \
---name Vannihilation \
---data "${DIR}" \
---port 25566
+mc-docker-run --name Vannihilation --data $(pwd) --port 25566

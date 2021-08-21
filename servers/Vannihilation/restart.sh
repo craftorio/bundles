@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-pushd `dirname $0` > /dev/null;DIR=`pwd -P`;popd > /dev/null
-cd ${DIR};
-docker stop Vannihilation
-docker rm Vannihilation
+cd $(dirname $0);
+export MC_PROJECT_NAME=$(basename $(pwd))
+
+docker stop ${MC_PROJECT_NAME}
+docker rm ${MC_PROJECT_NAME}
 
 git reset --hard && git clean -fd && git pull
 

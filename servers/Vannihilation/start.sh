@@ -7,9 +7,11 @@ export CONTAINER_IMAGE=${CONTAINER_IMAGE-"craftorio/docker-server-minecraft:mohi
 export MC_CPU_COUNT=${MC_CPU_COUNT-4}
 export MC_INIT_MEMORY=${MC_INIT_MEMORY-2048M}
 export MC_MAX_MEMORY=${MC_MAX_MEMORY-8192M}
+export MC_PROJECT_NAME=$(basename $(pwd))
 export MC_PORT=${MC_PORT-25566}
+
 
 cd ${DIR}/config && rsync -a --exclude-from='exclude.txt' ../../../clients/Vannihilation/config/config/ ./ && cd -
 cd ${DIR}/mods && rsync --delete -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/Vannihilation/mods/ ./ && cd -
 
-mc-docker-run --name Vannihilation --data $(pwd) --port 25566
+mc-docker-run --name ${PROJECT_NAME} --data $(pwd) --port 25566

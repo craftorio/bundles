@@ -2,7 +2,7 @@
 set -x
 set -e
 cd $(dirname $0);
-[[ -f .env ]] || { echo "No .env file found, terminating..."; exit 1 }
+[[ -f .env ]] || { echo "No .env file found, terminating..."; exit 1; }
 source .env
 MC_PROJECT_NAME=${MC_PROJECT_NAME-$(basename $(pwd))}
 

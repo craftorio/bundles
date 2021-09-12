@@ -4,15 +4,17 @@ GriefPrevention:
     world: -1
     DIM-1: -1
     DIM1: -1
-    skylight_forest: -1
+    ratlantis: -1
     twilightforest: -1
+    skylight_forest: -1
   Claims:
     Mode:
-      skylight_forest: Survival
-      twilightforest: Survival
       DIM1: Survival
+      ratlantis: Survival
+      twilightforest: Survival
       DIM-1: Survival
       world: Survival
+      skylight_forest: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -78,8 +80,9 @@ GriefPrevention:
       world: true
       DIM-1: true
       DIM1: true
-      skylight_forest: true
+      ratlantis: true
       twilightforest: true
+      skylight_forest: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15

@@ -6,8 +6,8 @@ cd $(dirname $0);
 source .env
 MC_PROJECT_NAME=${MC_PROJECT_NAME-$(basename $(pwd))}
 
-cd config && rsync -a --exclude-from='exclude.txt' ../../../clients/${MC_PROJECT_NAME}/config/config/ ./ && cd -
-cd mods && rsync --delete -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/${MC_PROJECT_NAME}/mods/ ./ && cd -
+cd config && rsync -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/${MC_PROJECT_NAME}/config/config/ ./; cd -
+cd mods && rsync --delete -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/${MC_PROJECT_NAME}/mods/ ./; cd -
 
 mc-docker-run --name "${MC_PROJECT_NAME}" --data "${MC_DATA_DIR-$(pwd)}" --port ${MC_PORT} \
 --image "${CONTAINER_IMAGE}" \

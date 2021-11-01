@@ -1,4 +1,5 @@
 .env
 servers/*/mods/**.jar
 servers/*/config/**
+!servers/*/config/**/exclude.txt
 servers/*/worlds/**

@@ -27,10 +27,11 @@
 	#-------------------------------------------
 	#HOTBAR: Temperature Changes the color of your hotbar
 	#NUMBERS: Temperature is drawn as number values on your screen
-	#BAR: Temperature is drawn as a horizontal bar on your screen
+	#HORIZONTAL_BAR: Temperature is drawn as a horizontal bar on your screen
+	#VERTICAL_BAR: Temperature is drawn as a vertical bar on your screen
 	#Default: HOTBAR
 	#-------------------------------------------
-	#Allowed Values: HOTBAR, NUMBERS, BAR
+	#Allowed Values: HOTBAR, NUMBERS, HORIZONTAL_BAR, VERTICAL_BAR
 	"Enum: Temperature Display Mode" = "HOTBAR"
 	#
 	############################################
@@ -48,4 +49,13 @@
 	#Default: true
 	#-------------------------------------------
 	"Boolean: Enable Tired Overlay" = true
+
+[Stamina]
+	#
+	############################################
+	#If Enabled, armor weights will be displayed in pounds rather than kilograms
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Display Weights in Pounds" = false
 

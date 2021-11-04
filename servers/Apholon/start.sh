@@ -12,4 +12,5 @@ cd worlds/world/datapacks && rsync --delete -a ../../../datapacks ./; cd -
 
 mc-docker-run --name "${MC_PROJECT_NAME}" --data "${MC_DATA_DIR-$(pwd)}" --port ${MC_PORT} \
 --image "${CONTAINER_IMAGE}" \
+--max-memory "${MC_MAX_MEMORY}" \
 --auth-server-url "${MINECRAFT_AUTH_SERVER_URL}"

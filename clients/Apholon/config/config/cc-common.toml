@@ -1,7 +1,0 @@
-[COMMON]
-AddOwner = true
-MobDestroy = false
-Range = 9
-ChunksFromSpawn = 10
-ClaimLimit = 8
-BypassBlocks = ["minecraft:ender_chest", "waystones:sandy_waystore", "waystones:waystore", "waystones:mossy_waystore", "gravestore:gravestore"]

@@ -9,6 +9,6 @@ ChunksFromSpawn = 10
 #Range: 0 ~ 250
 ClaimLimit = 8
 #Blocks that bypass claims on right click
-BypassBlocks = ["minecraft:ender_chest", "waystones:sandy_waystore", "waystones:waystore", "waystones:mossy_waystore", "gravestore:gravestore"]
+BypassBlocks = ["minecraft:ender_chest", "waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "gravestore:gravestone"]
 
 

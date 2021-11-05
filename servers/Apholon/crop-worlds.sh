@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -x
 set -e
-REGION_MAX_DISTANCE=4
+REGION_MAX_DISTANCE=2
 cd $(dirname $0);
 [[ -f .env ]] || { echo "No .env file found, terminating..."; exit 1; }
 ./stop.sh

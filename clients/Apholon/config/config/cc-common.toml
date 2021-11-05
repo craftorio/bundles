@@ -7,7 +7,7 @@ MobDestroy = false
 ChunksFromSpawn = 10
 #Maximum claims per player
 #Range: 0 ~ 250
-ClaimLimit = 8
+ClaimLimit = 36
 #Blocks that bypass claims on right click
 BypassBlocks = ["minecraft:ender_chest", "waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "gravestore:gravestone"]
 

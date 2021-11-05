@@ -3,7 +3,7 @@ distance:
   default_world: playerworld
   # Max distance that you want to a person be teleported. (0 = world border size / 2) [default: auto]
   # Range: > 0
-  max_distance: 8
+  max_distance: 2
   # Minimum distance that you want to a person be teleported. [default: 1]
   # Range: > 1
   min_distance: 1

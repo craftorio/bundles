@@ -8,25 +8,25 @@ cd $(dirname $0);
 
 if [[ -d  worlds/world/dimensions/twilightforest/twilightforest/region ]]; then
   cd worlds/world/dimensions/twilightforest/twilightforest/region
-  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs rm
+  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs --no-run-if-empty rm
   cd -
 fi
 
 if [[ -d worlds/world/dimensions/twilightforest/skylight_forest/region ]]; then
   cd worlds/world/dimensions/twilightforest/skylight_forest/region
-  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs rm
+  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs --no-run-if-empty rm
   cd -
 fi
 
 if [[ -d worlds/world/dimensions/rats/ratlantis/region ]]; then
   cd worlds/world/dimensions/rats/ratlantis/region
-  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs rm
+  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs --no-run-if-empty rm
   cd -
 fi
 
 if [[ -d worlds/world/DIM-1/region ]]; then
   cd worlds/world/DIM-1/region
-  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs rm
+  ls | awk -F\. '{ if ($2 < -'${REGION_MAX_DISTANCE}' || $3 < -'${REGION_MAX_DISTANCE}' || $2 > '${REGION_MAX_DISTANCE}' || $3 > '${REGION_MAX_DISTANCE}') { print $0; }  }' | xargs --no-run-if-empty rm
   cd -
 fi
 

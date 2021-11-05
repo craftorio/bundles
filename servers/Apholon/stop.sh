@@ -11,4 +11,6 @@ if docker ps | grep "${MC_PROJECT_NAME}"; then
   docker stop "${MC_PROJECT_NAME}"
 fi
 
-docker rm "${MC_PROJECT_NAME}"
+if docker ps -a | grep "${MC_PROJECT_NAME}"; then
+  docker rm "${MC_PROJECT_NAME}"
+fi

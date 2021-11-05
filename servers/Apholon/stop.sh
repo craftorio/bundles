@@ -12,7 +12,3 @@ if docker ps | grep "${MC_PROJECT_NAME}"; then
 fi
 
 docker rm "${MC_PROJECT_NAME}"
-
-git pull
-
-./start.sh

@@ -3,3 +3,4 @@ servers/*/mods/**.jar
 servers/*/config/**
 !servers/*/config/**/exclude.txt
 servers/*/worlds/**
+!servers/*/config-server/ops.json

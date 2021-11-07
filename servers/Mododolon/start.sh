@@ -8,7 +8,6 @@ MC_PROJECT_NAME=${MC_PROJECT_NAME-$(basename $(pwd))}
 
 cd config && rsync -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/${MC_PROJECT_NAME}/config/config/ ./; cd -
 cd mods && rsync --delete -a --exclude=exclude.txt --exclude-from='exclude.txt' ../../../clients/${MC_PROJECT_NAME}/mods/ ./; cd -
-cd worlds/world/datapacks && rsync --delete -a ../../../datapacks ./; cd -
 mkdir -p worlds/world/datapacks
 cd worlds/world/datapacks && rsync --delete -a ../../../datapacks/ ./; cd -
 

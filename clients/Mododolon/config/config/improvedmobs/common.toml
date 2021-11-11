@@ -104,7 +104,7 @@
 	"Break Tiles" = true
 	#Chance for neutral mobs to be aggressive
 	#Range: 0.0 ~ 1.0
-	"Neutral Aggressive Chance" = 0.2
+	"Neutral Aggressive Chance" = 0
 	#List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.
 	# e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons
 	"Auto Target List" = []

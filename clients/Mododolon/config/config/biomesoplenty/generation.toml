@@ -5,7 +5,7 @@
 	biome_size = "LARGE"
 	#The size of generated rivers.
 	#Allowed Values: TINY, SMALL, MEDIUM, LARGE, HUGE
-	river_size = "MEDIUM"
+	river_size = "LARGE"
 	#Type of temperature zones to use during biome placement.
 	#Allowed Values: LATITUDE, SMALL_ZONES, MEDIUM_ZONES, LARGE_ZONES, RANDOM
 	temperature_variation_scheme = "MEDIUM_ZONES"

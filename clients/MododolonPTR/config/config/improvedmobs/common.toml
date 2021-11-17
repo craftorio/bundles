@@ -1,0 +1,191 @@
+
+#With default value every difficulty perk maxes out at difficulty 250
+[general]
+	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
+	"Enable difficulty scaling" = false
+	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
+	"Difficulty Delay" = 0
+	#Handles increase in difficulty regarding current difficulty.
+	#Format is <minimum current difficulty>-<increase every 2400 ticks>
+	#Example ["0-0.01","10-0.1","30-0"]
+	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day) till it reaches a difficulty of 10.
+	#Then it increases by 1 per mc day till it reaches 30 and then stops.
+	"Difficulty Increase" = ["0-0.1"]
+	#Wether difficulty should only increase with at least one online players or not
+	"Ignore Players" = false
+	#Mobs to include for the new light spawning rules.
+	#Only prevention is possible. Meaning you cant allow mobs to spawn at higher light levels
+	"Light list" = []
+	#Turn the light list whitelist to blacklist
+	"Light list blacklist" = false
+	#Light level >= x will prevent mob spawning for defined mobs.
+	#Range: 0 ~ 16
+	Light = 7
+	#Should punish time skipping with e.g. bed, commands? If false, difficulty will increase by 0.1 regardless of skipped time.
+	"Punish Time Skip" = true
+	#Disable/Enable friendly fire for owned pets.
+	FriendlyFire = false
+	#Blacklist for pet you should't be able to give armor to. Pets from mods, which have custom armor should be included here.
+	"Pet Blacklist" = []
+	#Treat pet blacklist as whitelist
+	"Pet Whitelist" = false
+	#Increase difficulty with time
+	#Here untill its back as a gamerule
+	"Difficulty toggle" = true
+
+#Black/Whitelist for various stuff
+[list]
+	#By default the mod only modifies EntityMobs. Add other entities here if you want to apply modifications to them. Usage:
+	#<entity registry name> followed by any of:
+	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,SWIMMRIDE,TARGETVILLAGER,REVERSE].
+	#Leave empty to apply them all and REVERSE to reverse all flags. Some flags do nothing for certain mobs!
+	#example: minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification (since default is a blacklist)
+	#or minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes
+	"More Entities" = ["aquaculture:minnow", "blue_skies:frost_spirit", "aquaculture:tambaqui", "aquaculture:pink_salmon", "betterendforge:dragonfly", "neapolitan:chimpanzee", "aquaculture:atlantic_herring", "betterendforge:end_fish", "minecraft:hoglin", "theabyss:stephen", "blue_skies:municipal_monkfish", "aquaculture:catfish", "minecraft:trader_llama", "twilightforest:wraith", "upgrade_aquatic:goose", "upgrade_aquatic:thrasher", "blue_skies:supporter_pet", "rats:rat_baron", "rats:ratfish", "minecraft:horse", "rats:rat_mount_biplane", "aquaculture:brown_shrooma", "blue_skies:shade_monitor", "upgrade_aquatic:glow_squid", "minecraft:polar_bear", "theabyss:meramus", "upgrade_aquatic:nautilus", "aquaculture:muskellunge", "blue_skies:jelly_drifter", "twilightforest:bunny", "aquaculture:bayad", "aquaculture:brown_trout", "minecraft:llama", "minecraft:pig", "twilightforest:raven", "aquaculture:bluegill", "minecraft:turtle", "blue_skies:crogre", "aquaculture:red_shrooma", "minecraft:sheep", "aquaculture:atlantic_halibut", "minecraft:ender_dragon", "twilightforest:winter_wolf", "rats:rat_mount_strider", "blue_skies:nyctofly", "minecraft:dolphin", "upgrade_aquatic:immortal_jellyfish", "theabyss:soul_lizard", "minecraft:cod", "aquaculture:gar", "inventorypets:bed_pet_entity", "inventorypets:anvil_pet_entity", "aquaculture:red_grouper", "blue_skies:azulfo", "blue_skies:reindeer", "minecraft:donkey", "blue_skies:cosmic_fox", "twilightforest:loyal_zombie", "upgrade_aquatic:box_jellyfish", "minecraft:squid", "rats:rat_protector", "minecraft:skeleton_horse", "twilightforest:tiny_bird", "rats:rat_mount_golem", "atum:serval", "blue_skies:firefly", "minecraft:cow", "inventorypets:steve_ballmer_entity", "atum:villager_female", "aquaculture:rainbow_trout", "theabyss:silvia", "theabyss:jackson", "outer_end:chorus_squid", "minecraft:bee", "atum:quail", "aquaculture:perch", "upgrade_aquatic:ululu", "guardvillagers:guard", "blue_skies:charscale_moki", "the_bumblezone:honey_slime", "minecraft:salmon", "upgrade_aquatic:lionfish", "rats:rat_mount_chicken", "infernalexp:warpbeetle", "rats:rat_baron_plane", "twilightforest:quest_ram", "rats:pirat", "aquaculture:jellyfish", "minecraft:snow_golem", "outer_end:spectrafly", "minecraft:mooshroom", "rats:rat_mount_beast", "twilightforest:hydra", "theabyss:abyss_guard_protect", "rats:plague_doctor", "minecraft:villager", "betterendforge:silk_moth", "aquaculture:tuna", "twilightforest:wild_boar", "rats:ghost_pirat", "blue_skies:snow_owl", "rats:rat", "minecraft:rabbit", "artifacts:mimic", "theabyss:soul_lizard_jungle", "aquaculture:piranha", "upgrade_aquatic:great_thrasher", "rats:rat_mount_automaton", "aquaculture:box_turtle", "aquaculture:blackfish", "endergetic:booflo_baby", "aquaculture:arapaima", "infernalexp:glowsilk_moth", "minecraft:strider", "inventorypets:bill_gates_entity", "minecraft:parrot", "atum:villager_male", "infernalexp:blackstone_dwarf", "theabyss:markus", "theabyss:carlos", "twilightforest:bighorn_sheep", "twilightforest:mist_wolf", "minecraft:bat", "minecraft:wandering_trader", "upgrade_aquatic:perch", "betterendforge:cubozoa", "aquaculture:carp", "theabyss:the_abyss_dire_wolf", "aquaculture:pacific_halibut", "infernalexp:basalt_giant", "atum:desert_wolf", "minecraft:iron_golem", "twilightforest:hostile_wolf", "inventorypets:satya_nadella_entity", "aquaculture:pollock", "blue_skies:grittle_flatfish", "twilightforest:deer", "blue_skies:sliv", "aquaculture:arrau_turtle", "strawgolem:strawgolem", "aquaculture:boulti", "rats:demon_rat", "aquaculture:capitaine", "theabyss:lorenzo", "infernalexp:glowsquito", "stacked_dimensions_warden:great_sculker", "upgrade_aquatic:cassiopea_jellyfish", "rats:rat_spawner", "theabyss:the_abyss_wolf", "upgrade_aquatic:flare", "twilightforest:squirrel", "minecraft:mule", "rats:pirat_boat", "minecraft:zombie_horse", "inventorypets:siamese_entity", "atum:desert_rabbit", "blue_skies:stardust_ram", "aquaculture:atlantic_cod", "rats:rattling_gun", "outer_end:stalker", "aquaculture:synodontis", "twilightforest:knight_phantom", "minecraft:cat", "minecraft:pufferfish", "aquaculture:starshell_turtle", "blue_skies:gatekeeper", "infernalexp:shroomloin", "atum:camel", "minecraft:fox", "aquaculture:smallmouth_bass", "blue_skies:crystal_camel", "minecraft:tropical_fish", "snowpig:snow_pig", "endergetic:booflo", "endergetic:booflo_adolescent", "minecraft:ocelot", "twilightforest:penguin", "the_bumblezone:beehemoth", "minecraft:chicken", "endergetic:puff_bug", "minecraft:wolf", "minecraft:panda", "blue_skies:horizofin_tunid", "upgrade_aquatic:pike"]
+	#Put the above flags here to completly disable them.
+	"Flag Blacklist" = []
+	#Treat ATTRIBUTES flags as whitelist
+	"Attribute Whitelist" = false
+	#Treat ARMOR flags as whitelist
+	"Armor Equip Whitelist" = false
+	#Treat HELDITEMS flags as whitelist
+	"Held Equip Whitelist" = false
+	#Treat BLOCKBREAK flags as whitelist
+	"Breaker Whitelist" = false
+	#Treat USEITEM flags as whitelist
+	"Item Use Whitelist" = false
+	#Treat LADDER flags as whitelist
+	"Ladder Whitelist" = false
+	#Treat STEAL flags as whitelist
+	"Steal Whitelist" = false
+	#Treat SWIMMRIDE flags as whitelist
+	"Boat Whitelist" = false
+	#Treat TARGETVILLAGER flags as whitelist
+	"Villager Whitelist" = false
+
+#Debugging
+[debug]
+	#Enable showing of entity paths
+	"Path Debugging" = false
+
+#Settings for mod integration
+[integration]
+	#Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)
+	"Use Scaling Health Mod" = true
+	#Should mobs be able to use techguns weapons. (Requires techguns mod)
+	"Use Techguns Mod" = true
+	#Should mobs be able to use weapons from the reforged mod. (Requires reforged mod)
+	"Use Reforged Mod" = true
+	#Should the coroutils repair block be used. (Requires coroutils mod)
+	"Use CoroUtils Mod" = true
+
+#Settings regarding custom ai for mobs
+[ai]
+	#Whitelist for blocks, which can be actively broken. Usage: <registry name;classname;tag> put "!" infront to exclude blocks
+	#If you includery common blocks (like grass blocks) the pathfinding will be a bit strange
+	"Block Whitelist" = ["forge:glass", "forge:glass_panes", "minecraft:fence_gates", "forge:fence_gates", "minecraft:wooden_doors"]
+	#Treat Block Whitelist as Blocklist
+	"Block as Blacklist" = false
+	#Use the block breaking sound instead of a knocking sound
+	Sound = false
+	#Chance for a mob to be able to break blocks
+	#Range: 0.0 ~ 1.0
+	"Breaker Chance" = 0.3
+	#Initial cooldown for block breaking mobs
+	"Breaker Initial Cooldown" = 120
+	#Cooldown for breaking blocks
+	"Breaker Cooldown" = 20
+	#Chance for a mob to be able to steal items
+	#Range: 0.0 ~ 1.0
+	"Stealer Chance" = 0.3
+	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
+	"Breaking items" = ["minecraft:diamond_pickaxe;1"]
+	#Should mobs be able to break tile entities? Evaluated before the break list
+	"Break Tiles" = true
+	#Chance for neutral mobs to be aggressive
+	#Range: 0.0 ~ 1.0
+	"Neutral Aggressive Chance" = 0
+	#List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.
+	# e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons
+	"Auto Target List" = []
+	#Delay for the coroutil repair block. Coroutil integration needs to be enabled
+	"Repair Ticks" = 500
+	#Difficulty at which mobs are able to break blocks
+	"Difficulty Break AI" = 0.0
+	#Difficulty at which mobs are able to steal items
+	"Difficulty Steal AI" = 0.0
+
+#Configs regarding mobs spawning with equipment
+[equipment]
+	#Blacklist for mods. Add modid to prevent items from that mod being equipped. (For individual items use the equipment.json)
+	"Item Blacklist" = []
+	#Use blacklist as whitelist
+	"Item Whitelist" = false
+	#Blacklist for items mobs should never be able to use.
+	#Use as in using the item similar to players (e.g. shooting bows)
+	"Item Use Blacklist" = ["bigbrain:buckler"]
+	#Turn the use blacklist into a whitelist
+	"Item Use Whitelist" = false
+	#Blacklist for specific mobs and items they shouldnt use (e.g. skeletons already use bows)
+	#<entity registry name-item>
+	#For different items but same entity use multiple lines
+	#Some special names are BOW, TRIDEN, CROSSBOW refering to every bow/trident/crossbow item (So you dont need to type e.g. every bow item)
+	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
+	#Base chance that a mob can have one piece of armor
+	#Range: 0.0 ~ 1.0
+	"Equipment Chance" = 0.1
+	#Base chance for each additional armor pieces
+	#Range: 0.0 ~ 1.0
+	"Additional Equipment Chance" = 0.3
+	#Adds additional x*difficulty% to base equip chance
+	"Equipment Addition" = 0.3
+	#Chance for mobs to have a weapon
+	#Range: 0.0 ~ 1.0
+	"Weapon Chance" = 0.05
+	#Adds additional x*difficulty% to base weapon chance
+	"Weapon Chance Add" = 0.3
+	#Base chance for each armor pieces to get enchanted
+	#Range: 0.0 ~ 1.0
+	"Enchanting Chance" = 0.2
+	#Adds additional x*difficulty% to base enchanting chance
+	"Enchanting Addition" = 0.2
+	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
+	"Enchanting Calc" = ["0-5-10", "25-5-15", "50-10-17", "100-15-25", "200-20-30", "250-30-35"]
+	#Chance for mobs to have an item in offhand
+	#Range: 0.0 ~ 1.0
+	"Item Equip Chance" = 0.05
+	#Adds additional x*difficulty% to base item chance
+	"Item Chance add" = 0.2
+	#Should mobs drop the armor equipped through this mod? (Other methods e.g. through vanilla is not included)
+	"Should drop equipment" = true
+
+#Settings for attribute modifiers
+[attributes]
+	#Health will be multiplied by difficulty*0.016*x. Set to 0 to disable
+	"Health Increase Multiplier" = 1.0
+	#Health will be multiplied by at maximum this. Set to 0 means no limit
+	"Max Health Increase" = 5.0
+	#Round health to the nearest x. Set to 0 to disable
+	"Round HP" = 0.5
+	#Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable
+	"Damage Increase Multiplier" = 1.0
+	#Damage will be multiplied by at maximum this. Set to 0 means no limit
+	"Max Damage Increase" = 3.0
+	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
+	"Speed Increase" = 1.0
+	#Maximum increase in speed
+	#Range: 0.0 ~ 1.0
+	"Max Speed" = 0.1
+	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
+	"Knockback Increase" = 1.0
+	#Maximum increase in knockback
+	"Max Knockback" = 0.5
+	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
+	"Magic Resistance Increase" = 1.0
+	#Maximum increase in magic resistance. Magic reduction is percentage
+	#Range: 0.0 ~ 1.0
+	"Max Magic Resistance" = 0.4
+	#Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable
+	"Projectile Damage Increase" = 1.0
+	#Projectile damage will be multiplied by maximum of this
+	"Max Projectile Damage" = 2.0

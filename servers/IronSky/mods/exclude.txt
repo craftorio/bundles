@@ -1,3 +1,4 @@
 Client_*
 spongeforge-*
+liteloader*
 plugins/*

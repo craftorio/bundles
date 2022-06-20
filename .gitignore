@@ -4,11 +4,11 @@ servers/*/mods/**.jar
 !servers/*/mods/plugins/*.jar
 servers/*/config/**
 !servers/*/config/**/exclude.txt
-!servers/*/config/chestrefill/**
-!servers/*/config/rankupper/**
-!servers/*/config/nucleus/**
-!servers/*/config/nucleus-heisenberg/**
-!servers/*/config/luckperms/**
+!servers/*/config/chestrefill
+!servers/*/config/rankupper
+!servers/*/config/nucleus
+!servers/*/config/nucleus-heisenberg
+!servers/*/config/luckperms
 servers/*/worlds/**
 !servers/*/config-server/ops.json
 .DS_Store

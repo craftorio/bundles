@@ -1,0 +1,356 @@
+{
+  "chestrefill": {
+    "refillable-containers": {
+      "(722, 63, 431)|f86f57ac-a6f8-421a-9204-910a882ba3b1": {
+        "name": "starter",
+        "container-block-type": "minecraft:chest",
+        "kit": "",
+        "items": [
+          {
+            "chance": 1.0,
+            "slot": 0,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_helmet",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16351261
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 1,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_chestplate",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16351261
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 2,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_helmet",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16701501
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 3,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_chestplate",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16701501
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 4,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:feather",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 5,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 6,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 7,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 8,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 9,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_boots",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16351261
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 10,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_leggings",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16351261
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 11,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_boots",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16701501
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 12,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:leather_leggings",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "display": {
+                  "color": 16701501
+                }
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 13,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:feather",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 14,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 15,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 16,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 17,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "toughasnails:purified_water_bottle",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 18,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "techguns:handcannon",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "ammo": 1,
+                "ammovariant": "default",
+                "camo": 0
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 19,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "techguns:itemshared",
+              "Count": 64,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 20,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "techguns:handcannon",
+              "Count": 1,
+              "UnsafeDamage": 0,
+              "UnsafeData": {
+                "ammo": 1,
+                "ammovariant": "default",
+                "camo": 0
+              }
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 21,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "techguns:itemshared",
+              "Count": 64,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 22,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "minecraft:planks",
+              "Count": 16,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 23,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "harvestcraft:zombiejerkyitem",
+              "Count": 5,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 24,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "harvestcraft:zombiejerkyitem",
+              "Count": 5,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 25,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "harvestcraft:zombiejerkyitem",
+              "Count": 5,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          },
+          {
+            "chance": 1.0,
+            "slot": 26,
+            "item": {
+              "ContentVersion": 2,
+              "ItemType": "harvestcraft:zombiejerkyitem",
+              "Count": 5,
+              "UnsafeDamage": 0,
+              "UnsafeData": {}
+            }
+          }
+        ],
+        "time": 120,
+        "one-item-at-time": false,
+        "replace-existing-items": true,
+        "hidden-if-no-items": false,
+        "hiding-block": "minecraft:dirt",
+        "required-permission": ""
+      }
+    }
+  }
+}

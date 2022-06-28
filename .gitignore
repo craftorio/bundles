@@ -1,4 +1,5 @@
 .env
+.DS_Store
 servers/*/mods/**.jar
 !servers/*/mods/*spongeforge-*.jar
 !servers/*/mods/plugins/*.jar

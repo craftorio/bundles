@@ -13,3 +13,4 @@ servers/*/config/**
 servers/*/worlds/**
 !servers/*/config-server/ops.json
 .DS_Store
+runtime_*

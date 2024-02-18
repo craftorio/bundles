@@ -16,7 +16,7 @@ distance:
 
 storage-method: "mysql"
 data:
-  address: "db"
+  address: "172.17.0.4"
   database: "minecraft_lp"
   username: "minecraft"
   password: "minecraft"

@@ -1,5 +1,0 @@
-mod_worldeditcui_1.12.1_01_lite_mc1.12.1.litemod
-journeymap-1.12.2-5.5.5.jar
-BetterFps-1.4.8.jar
-HardcoreDarkness-MC1.12.2-2.0.jar
-liteloader-1.12.2-SNAPSHOT-release.jar
